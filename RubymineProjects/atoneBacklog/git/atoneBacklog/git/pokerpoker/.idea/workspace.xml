@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32f34a7b-64f7-4728-ab7b-b910821e0ed4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/poker/app/apis/api/root.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/app/apis/api/ver1/poker_hands.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/app/apis/api/ver1/root.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/app/assets/stylesheets/result.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/app/controllers/concerns/common.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/app/validator/common_validator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/controllers/common_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/controllers/common_validator_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/controllers/home_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/controllers/posts_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/requests/api_poker_hands_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poker/spec/test_helper.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/spec/controllers/home_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/poker/spec/test_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_poker_hands_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/spec/requests/api_poker_hands_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/app/controllers/posts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/spec/controllers/posts_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poker/app/controllers/concerns/common.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post</find>
+      <find>@hash</find>
+      <find>nil</find>
+      <find>rspec</find>
+      <find>rails</find>
+      <find>rspec-rails</find>
+      <find>actionpack</find>
+      <find>rails</find>
+      <find>rails_helper</find>
+      <find>rspec/rails</find>
+      <find>pry</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/poker/spec</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/poker" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/poker/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/poker/app/assets/stylesheets/home.scss" />
+        <option value="$PROJECT_DIR$/poker/app/common/comoon.rb" />
+        <option value="$PROJECT_DIR$/poker/config/application.rb" />
+        <option value="$PROJECT_DIR$/poker/app/apis/api/root.rb" />
+        <option value="$PROJECT_DIR$/poker/app/apis/api/ver1/root.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/poker/config/routes.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/common/test_common_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/app/views/home/top.html.erb" />
+        <option value="$PROJECT_DIR$/poker/spec/factories/poker.rb" />
+        <option value="$PROJECT_DIR$/poker/app/common/common.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/common/common_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/poker_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/requests/api/api_poker_hands.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/concerns/common_validator_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/poker/app/apis/api/ver1/poker_hands.rb" />
+        <option value="$PROJECT_DIR$/poker/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/poker/vendor/bundle/gems/rspec-rails-3.7.2/README.md" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/concerns/common_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/requests/api/api_poker_hands_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/request/api_poker_hands_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/common_validator_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/common_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/app/controllers/concerns/common.rb" />
+        <option value="$PROJECT_DIR$/poker/app/validator/common_validator.rb" />
+        <option value="$PROJECT_DIR$/poker/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/posts_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/requests/api_poker_hands_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/test_helper.rb" />
+        <option value="$PROJECT_DIR$/poker/spec/controllers/home_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/poker/Gemfile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="912" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="ver1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="concerns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokerpoker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokerpoker" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/poker/log" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/poker/spec/controllers" />
+      <recent name="$PROJECT_DIR$/poker/spec/requests/api" />
+      <recent name="$PROJECT_DIR$/poker/spec/common" />
+      <recent name="$PROJECT_DIR$/poker/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/poker/app/common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All tests in spec: pokerpoker" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="pokerpoker" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/poker/spec" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: pokerpoker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32f34a7b-64f7-4728-ab7b-b910821e0ed4" name="Default" comment="" />
+      <created>1527813604710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527813604710</updated>
+      <workItem from="1527813607241" duration="3000" />
+      <workItem from="1527813648777" duration="407000" />
+      <workItem from="1527814071578" duration="6260000" />
+      <workItem from="1527823801635" duration="115000" />
+      <workItem from="1527829370021" duration="2303000" />
+      <workItem from="1527907532852" duration="807000" />
+      <workItem from="1527908682715" duration="623000" />
+      <workItem from="1527909311077" duration="216000" />
+      <workItem from="1527909530655" duration="617000" />
+      <workItem from="1527910908610" duration="10820000" />
+      <workItem from="1527925235270" duration="5870000" />
+      <workItem from="1527999545906" duration="8466000" />
+      <workItem from="1528009121039" duration="9423000" />
+      <workItem from="1528071829662" duration="4599000" />
+      <workItem from="1528105605068" duration="30000" />
+      <workItem from="1528107570018" duration="1785000" />
+      <workItem from="1528160238151" duration="601000" />
+      <workItem from="1528182905862" duration="77000" />
+      <workItem from="1528251691036" duration="9000" />
+      <workItem from="1528253367517" duration="255000" />
+      <workItem from="1528253694199" duration="188000" />
+      <workItem from="1528334994646" duration="3000" />
+      <workItem from="1528335033979" duration="47000" />
+      <workItem from="1528336751512" duration="9000" />
+      <workItem from="1528336825378" duration="21000" />
+      <workItem from="1528418182232" duration="607000" />
+      <workItem from="1528440296529" duration="5000" />
+      <workItem from="1528440600425" duration="123000" />
+      <workItem from="1528440928557" duration="91000" />
+      <workItem from="1528441035046" duration="776000" />
+      <workItem from="1528458107998" duration="20000" />
+      <workItem from="1528458139598" duration="1796000" />
+      <workItem from="1528461964944" duration="5125000" />
+      <workItem from="1528467851922" duration="410000" />
+      <workItem from="1528762673954" duration="285000" />
+      <workItem from="1528763018448" duration="1000" />
+      <workItem from="1528763067796" duration="312000" />
+      <workItem from="1528763426423" duration="5376000" />
+      <workItem from="1528768930932" duration="2548000" />
+      <workItem from="1528771652758" duration="368000" />
+      <workItem from="1528772093751" duration="338000" />
+      <workItem from="1528776894054" duration="14267000" />
+      <workItem from="1528793033416" duration="2903000" />
+      <workItem from="1528795947829" duration="19456000" />
+      <workItem from="1528822780324" duration="990000" />
+      <workItem from="1528823794331" duration="1738000" />
+      <workItem from="1528826658588" duration="383000" />
+      <workItem from="1528847839516" duration="3492000" />
+      <workItem from="1528851353580" duration="677000" />
+      <workItem from="1528852123661" duration="119000" />
+      <workItem from="1528852318265" duration="9736000" />
+      <workItem from="1528866403328" duration="115000" />
+      <workItem from="1528866567403" duration="25982000" />
+      <workItem from="1528900561338" duration="78000" />
+      <workItem from="1528936082223" duration="7165000" />
+      <workItem from="1528945304019" duration="1137000" />
+      <workItem from="1528947546782" duration="3452000" />
+      <workItem from="1528954216003" duration="7390000" />
+      <workItem from="1528968229826" duration="13206000" />
+      <workItem from="1529022037109" duration="1130000" />
+      <workItem from="1529024939768" duration="12220000" />
+      <workItem from="1529038525075" duration="129000" />
+      <workItem from="1529038657405" duration="2518000" />
+      <workItem from="1529042278724" duration="184000" />
+      <workItem from="1529042961131" duration="6910000" />
+      <workItem from="1529052082627" duration="2268000" />
+      <workItem from="1529054966018" duration="11000" />
+      <workItem from="1529055007724" duration="945000" />
+      <workItem from="1529056002128" duration="371000" />
+      <workItem from="1529127605124" duration="5309000" />
+      <workItem from="1529134003147" duration="4154000" />
+      <workItem from="1529140781595" duration="673000" />
+      <workItem from="1529141606349" duration="1162000" />
+      <workItem from="1529212236548" duration="11298000" />
+      <workItem from="1529228102408" duration="367000" />
+      <workItem from="1529235262964" duration="514000" />
+      <workItem from="1529282261032" duration="2224000" />
+      <workItem from="1529284583321" duration="12292000" />
+      <workItem from="1529367573198" duration="1137000" />
+      <workItem from="1529369269394" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250062000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="912" height="947" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41890547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28045976" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32905984" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16056167" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43179488" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/concerns/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/posts_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/concerns/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/views/home/top.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/views/home/top.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/common/comoon.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/apis/api/root.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/common/test_common_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/spec/factories/poker.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/app/apis/api/ver1/root.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/vendor/bundle/gems/yard-0.9.14/spec/templates/onefile_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/common/common.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/spec/common/common_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/app/views/home/top.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/requests/api/api_poker_hands.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/apis/api/ver1/poker_hands.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/log/rails_helper.txt" />
+    <entry file="file://$PROJECT_DIR$/poker/vendor/bundle/gems/database_cleaner-1.7.0/README.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="275" selection-start-line="275" selection-end-line="275" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/vendor/bundle/gems/rspec-rails-3.7.2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="283">
+            <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/log/spec_helper.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/concerns/common_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/concerns/common_validator_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/poker/log/.rspec" />
+    <entry file="file://$PROJECT_DIR$/poker/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="258" column="5" selection-start-line="258" selection-start-column="2" selection-end-line="258" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/vendor/bundle/gems/method_source-0.9.0/lib/method_source/code_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/validator/common_validator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/common_validator_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/common_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/concerns/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/posts_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/requests/api_poker_hands_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poker/spec/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

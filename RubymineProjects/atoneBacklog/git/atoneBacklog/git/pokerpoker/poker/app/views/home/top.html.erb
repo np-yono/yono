@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <h1>Cheak a Poker Hand!!</h1>
+        <h2>半角英字大文字のスート（S,H,D,C）と数字（1〜13）の組み合わせでカードを指定してください。</h2>
+        <h3>例）H1 D4 C8 S12 H5</h3>
+    </head>
+
+    <body>
+    <%= form_tag("/result") do %>
+        <div>
+            <input name="content" value="<%= @post %>">
+        </div>
+        <div>
+             <input type="submit" value="Cheak">
+        </div>
+    <% end %>
+        <div class="YAKU">
+            <%= @yaku %>
+        </div>
+        <div class="error">
+            <%= @error %>
+        </div>
+    </body>
+</html>
